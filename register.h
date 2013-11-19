@@ -10,15 +10,15 @@ class RegisterClass;
 
 class DNTRegister : public QDialog
 {
-    Q_OBJECT
+  Q_OBJECT
 private:
-    Ui::RegisterClass *_ui;
-    CryptoPP::InvertibleRSAFunction _params;
+  Ui::RegisterClass *_ui;
+  CryptoPP::InvertibleRSAFunction _params;
 public:
-    explicit DNTRegister(QWidget *parent = 0);
-    ~DNTRegister();
+  explicit DNTRegister(QWidget *parent = 0);
+  ~DNTRegister();
 private slots:
-    void onMake();
+  void onMake();
 
 };
 
