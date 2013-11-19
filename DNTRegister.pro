@@ -278,3 +278,6 @@ FORMS    += register.ui
 
 RESOURCES += \
     register.qrc
+
+OTHER_FILES += \
+    README.md
